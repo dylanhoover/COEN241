@@ -1,0 +1,54 @@
+QEMU VM CPU Test Results
+VM Configuratio: 1 core, 2 threads, 2 GB Mem
+===========================================================
+CPU Test with 2 Threads
+-----------------------
+TEST 1
+    events per second:  2391.89
+    total number of events:              71762
+TEST 2
+    events per second:  2392.39
+    total number of events:              71777
+TEST 3
+    events per second:  2391.75
+    total number of events:              71757
+TEST 4
+    events per second:  2392.57
+    total number of events:              71782
+TEST 5
+    events per second:  2392.60
+    total number of events:              71783
+CPU Test with 4 Threads
+-----------------------
+TEST 1
+    events per second:  2391.12
+    total number of events:              71738
+TEST 2
+    events per second:  2392.03
+    total number of events:              71766
+TEST 3
+    events per second:  2392.09
+    total number of events:              71769
+TEST 4
+    events per second:  2392.82
+    total number of events:              71789
+TEST 5
+    events per second:  2392.43
+    total number of events:              71779
+CPU Test with 8 Threads
+-----------------------
+TEST 1
+    events per second:  2390.10
+    total number of events:              71712
+TEST 2
+    events per second:  2391.10
+    total number of events:              71740
+TEST 3
+    events per second:  2392.05
+    total number of events:              71769
+TEST 4
+    events per second:  2391.49
+    total number of events:              71753
+TEST 5
+    events per second:  2391.90
+    total number of events:              71765

@@ -1,0 +1,105 @@
+QEMU VM IO Test Results
+VM Configuration: 4 cores, 8 threads, 8 GB Mem
+===========================================================
+Sequential Write Mode
+TEST 1
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               93.59
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    9.37
+         95th percentile:                        0.11
+         sum:                                 9940.48
+TEST 2
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               94.06
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.58
+         95th percentile:                        0.11
+         sum:                                 9934.92
+TEST 3
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               94.99
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.86
+         95th percentile:                        0.11
+         sum:                                 9938.93
+TEST 4
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               94.09
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.39
+         95th percentile:                        0.11
+         sum:                                 9937.86
+TEST 5
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               94.22
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.45
+         95th percentile:                        0.11
+         sum:                                 9941.25
+Sequential Read mode
+TEST 1
+Throughput:
+    read, MiB/s:                  5978.58
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.10
+         95th percentile:                        0.00
+         sum:                                 9123.05
+TEST 2
+Throughput:
+    read, MiB/s:                  5921.28
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.05
+         95th percentile:                        0.00
+         sum:                                 9116.79
+TEST 3
+Throughput:
+    read, MiB/s:                  5853.69
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.16
+         95th percentile:                        0.00
+         sum:                                 9066.83
+TEST 4
+Throughput:
+    read, MiB/s:                  5871.94
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.04
+         95th percentile:                        0.00
+         sum:                                 9096.20
+TEST 5
+Throughput:
+    read, MiB/s:                  5865.65
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.07
+         95th percentile:                        0.00
+         sum:                                 9123.08

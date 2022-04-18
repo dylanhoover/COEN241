@@ -1,0 +1,227 @@
+QEMU VM IO Test Results
+VM Configuration: 2 cores, 4 threads, 4 GB Mem
+===========================================================
+Sequential Write Mode
+TEST 1
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               94.21
+Latency (ms):
+         min:                                    0.01
+         avg:                                    0.07
+         max:                                   12.28
+         95th percentile:                        0.11
+         sum:                                 9937.73
+TEST 2
+VM Configuration: 2 cores, 4 threads, 4 GB Mem
+===========================================================
+Sequential Write Mode
+TEST 1
+VM Configuration: 2 cores, 4 threads, 4 GB Mem
+===========================================================
+Sequential Write Mode
+TEST 1
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               243.18
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.05
+         max:                                    8.57
+         95th percentile:                        0.10
+         sum:                                 9925.34
+TEST 2
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               243.79
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.05
+         max:                                    8.28
+         95th percentile:                        0.10
+         sum:                                 9927.34
+TEST 3
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               245.99
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.05
+         max:                                    8.53
+         95th percentile:                        0.10
+         sum:                                 9927.12
+TEST 4
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               241.69
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.05
+         max:                                    8.43
+         95th percentile:                        0.10
+         sum:                                 9922.28
+TEST 5
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               244.75
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.05
+         max:                                    8.53
+         95th percentile:                        0.10
+         sum:                                 9927.96
+Sequential Read mode
+TEST 1
+Throughput:
+    read, MiB/s:                  5834.91
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.33
+         95th percentile:                        0.00
+         sum:                                 9119.21
+TEST 2
+Throughput:
+    read, MiB/s:                  5838.64
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.04
+         95th percentile:                        0.00
+         sum:                                 9137.66
+TEST 3
+Throughput:
+    read, MiB/s:                  5806.89
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.11
+         95th percentile:                        0.00
+         sum:                                 9112.34
+TEST 4
+Throughput:
+    read, MiB/s:                  5752.87
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.03
+         95th percentile:                        0.00
+         sum:                                 9087.84
+TEST 5
+Throughput:
+    read, MiB/s:                  5837.85
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.07
+         95th percentile:                        0.00
+         sum:                                 9099.89
+VM Configuration: 2 cores, 4 threads, 4 GB Mem
+===========================================================
+Sequential Write Mode
+TEST 1
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               96.71
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.76
+         95th percentile:                        0.10
+         sum:                                 9936.16
+TEST 2
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               95.77
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.42
+         95th percentile:                        0.10
+         sum:                                 9941.05
+TEST 3
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               96.09
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.60
+         95th percentile:                        0.10
+         sum:                                 9936.26
+TEST 4
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               95.78
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.42
+         95th percentile:                        0.10
+         sum:                                 9937.69
+TEST 5
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               95.78
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.47
+         95th percentile:                        0.11
+         sum:                                 9936.25
+Sequential Read mode
+TEST 1
+Throughput:
+    read, MiB/s:                  5892.52
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.94
+         95th percentile:                        0.00
+         sum:                                 9086.65
+TEST 2
+Throughput:
+    read, MiB/s:                  5931.92
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.03
+         95th percentile:                        0.00
+         sum:                                 9127.57
+TEST 3
+Throughput:
+    read, MiB/s:                  5835.59
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.11
+         95th percentile:                        0.00
+         sum:                                 9143.93
+TEST 4
+Throughput:
+    read, MiB/s:                  5908.12
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.04
+         95th percentile:                        0.00
+         sum:                                 9113.09
+TEST 5
+Throughput:
+    read, MiB/s:                  5871.83
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.05
+         95th percentile:                        0.00
+         sum:                                 9123.00
