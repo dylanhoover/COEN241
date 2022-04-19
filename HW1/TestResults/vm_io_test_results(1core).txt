@@ -1,0 +1,105 @@
+QEMU VM IO Test Results
+VM Configuration: 1 core, 2 threads, 2 GB Mem
+===========================================================
+Sequential Write Mode
+TEST 1
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               97.97
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                   18.21
+         95th percentile:                        0.10
+         sum:                                 9939.16
+TEST 2
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               99.68
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.57
+         95th percentile:                        0.10
+         sum:                                 9938.35
+TEST 3
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               101.43
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.49
+         95th percentile:                        0.10
+         sum:                                 9937.23
+TEST 4
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               101.43
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.26
+         95th percentile:                        0.10
+         sum:                                 9932.53
+TEST 5
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               100.49
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.07
+         max:                                    8.53
+         95th percentile:                        0.10
+         sum:                                 9929.88
+Sequential Read mode
+TEST 1
+Throughput:
+    read, MiB/s:                  5875.35
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.45
+         95th percentile:                        0.00
+         sum:                                 9165.04
+TEST 2
+Throughput:
+    read, MiB/s:                  5877.46
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.97
+         95th percentile:                        0.00
+         sum:                                 9125.74
+TEST 3
+Throughput:
+    read, MiB/s:                  5858.45
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.41
+         95th percentile:                        0.00
+         sum:                                 9148.49
+TEST 4
+Throughput:
+    read, MiB/s:                  5907.67
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.14
+         95th percentile:                        0.00
+         sum:                                 9128.18
+TEST 5
+Throughput:
+    read, MiB/s:                  5838.64
+    written, MiB/s:               0.00
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    0.14
+         95th percentile:                        0.00
+         sum:                                 9097.42
