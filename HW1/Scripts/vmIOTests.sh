@@ -35,9 +35,9 @@ for ((counter=1; counter<6; counter++))
 do
     echo "TEST $counter" >> $filename
     #Create files to test
-    sysbench --test=fileio --file-num=128 --file-total-size=10G prepare
+    sysbench --test=fileio --file-num=128 --file-total-size=500M prepare
     #Run tests
-    sysbench --test=fileio --file-num=128 --file-total-size=10G --file-test-mode=seqwr run \
+    sysbench --test=fileio --file-num=128 --file-total-size=500M --file-test-mode=seqwr run \
     | grep "Throughput:\|read, MiB/s:\|written, MiB/s:\|Latency (ms):\|min:\|avg:\|max:\|95th percentile:\|sum:" >> $filename
     #Cleanup
     sysbench --test=fileio cleanup
@@ -50,9 +50,9 @@ for ((counter=1; counter<6; counter++))
 do
     echo "TEST $counter" >> $filename
     #Create the files to test
-    sysbench --test=fileio --file-num=128 --file-total-size=10G prepare
+    sysbench --test=fileio --file-num=128 --file-total-size=500M prepare
     #Run the actual test
-    sysbench --test=fileio --file-num=128 --file-total-size=10G --file-test-mode=seqrd run \
+    sysbench --test=fileio --file-num=128 --file-total-size=500M --file-test-mode=seqrd run \
     | grep "Throughput:\|read, MiB/s:\|written, MiB/s:\|Latency (ms):\|min:\|avg:\|max:\|95th percentile:\|sum:" >> $filename
     #Cleanup the test files
     sysbench --test=fileio cleanup
